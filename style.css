@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(imageHome.jpg);
+    filter: brightness();
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    /* filter: opacity(0.5); */
+}
+button{
+    cursor: pointer;
+    transition: 0.2s;
+}
+/* ----------------Form-------------------- */
+.container-form{
+    position: absolute;
+    top: 22vh;
+    background-color: rgb(255 255 255 / 45%);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+.form-registered-connect{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.todolist{
+    color: white;
+    font-size: 20px;
+}
+.connect-registration input,button{
+    font-size: 25px;
+    margin: 20px;
+}
+/* ----------------Disconnect------------------- */
+.button-disconnect{
+    width: fit-content;
+    border-radius: 5px;
+}
+/* -----------------Input add todolist------------ */
+.add-todolist{
+    width: fit-content;
+}
+.add-todolist input{
+    font-size: 25px;
+}
+/* ------------------Modify todolist-------------------- */
