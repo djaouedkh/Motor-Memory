@@ -7,7 +7,6 @@ body{
 }
 .main{
     background-image: url(imageHome.jpg);
-    filter: brightness();
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -15,16 +14,19 @@ body{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    /* filter: opacity(0.5); */
 }
 button{
     cursor: pointer;
     transition: 0.2s;
 }
+input{
+    background-color: rgb(48, 48, 145);
+    color: white;
+}
 /* ----------------Form-------------------- */
 .container-form{
     position: absolute;
-    top: 22vh;
+    top: 10vh;
     background-color: rgb(255 255 255 / 45%);
     width: fit-content;
     padding: 15px;
@@ -34,6 +36,7 @@ button{
     flex-wrap: wrap;
     text-align: center;
     margin: auto;
+    color: white;
 }
 .form-registered-connect{
     display: flex;
@@ -60,4 +63,6 @@ button{
 .add-todolist input{
     font-size: 25px;
 }
-/* ------------------Modify todolist-------------------- */
+/* ------------------Media Queries-------------------- */
+
+
